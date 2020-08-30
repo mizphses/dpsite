@@ -15,10 +15,14 @@ body{
   font-style: normal;
 }
 .lg-height{
-  height: 50vh;
+  min-height: 50vh;
 }
 .lg-spacer{
-  height: 18vh;
+  min-height: 18vh;
+}
+
+.min-spacer{
+  min-height: 1em;
 }
 .footer{
   position: absolute;
@@ -29,4 +33,11 @@ body{
 }
 .f-spacer{
   height: 2vh;
+}
+.widenav{
+  padding: 0.8em;
+  height: 4em;
+  background-color: rgb(59, 69, 82);
+  color: white;
+  margin: -1em;
 }
